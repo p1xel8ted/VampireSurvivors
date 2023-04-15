@@ -24,7 +24,7 @@ An ultra-wide fix for Vampire Survivors that removes pillar-boxing. Uses Melon L
 
 ## Known Issues
 
-- The singing flower level is black bars. No idea why or how to remove them.
+- **The singing flower level has black bars. No idea why or how to remove them.**
 - Enemies pop in where the black bars would normally be.
 - Not a mod issue, but game appears zoomed in compared to the original engine.
 
