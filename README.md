@@ -2,7 +2,7 @@
 An ultra-wide fix for Vampire Survivors that removes pillar-boxing. Uses Melon Loader.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F2F2DI3WA)<br>
-[![Github All Releases](https://img.shields.io/github/downloads/p1xel8ted/VampireSurvivors/total.svg)](https://github.com/p1xel8ted/WonhonSpirit/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/p1xel8ted/VampireSurvivors/total.svg)](https://github.com/p1xel8ted/VampireSurvivors/releases)
 
 ## New Engine Only
 
@@ -24,7 +24,7 @@ An ultra-wide fix for Vampire Survivors that removes pillar-boxing. Uses Melon L
 
 ## Known Issues
 
-- Some UI elements are to the left.
+- **The singing flower level has black bars. No idea why or how to remove them.**
 - Enemies pop in where the black bars would normally be.
 - Not a mod issue, but game appears zoomed in compared to the original engine.
 
