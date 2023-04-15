@@ -48,10 +48,12 @@ namespace VampireSurvivors
             base.OnSceneWasLoaded(buildIndex, sceneName);
 
             _aspectMasks = Resources.FindObjectsOfTypeAll<AspectMask>();
-            foreach (var a in _aspectMasks)
+            foreach (var aspectMask in _aspectMasks)
             {
-                a.enabled = false;
-                a.gameObject.SetActive(false);
+                if (aspectMask.gameObject.activeSelf)
+                {
+                    aspectMask.gameObject.SetActive(false);
+                }
             }
 
             if (_expandUI.Value)
