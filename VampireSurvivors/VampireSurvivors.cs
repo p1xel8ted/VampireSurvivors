@@ -4,7 +4,7 @@ using MelonLoader;
 using UnityEngine;
 using UnityEngine.UI;
 
-[assembly: MelonInfo(typeof(VampireSurvivors.VampireSurvivors), "Vampire Survivors UltraWide Fixes", "0.0.2", "p1xel8ted")]
+[assembly: MelonInfo(typeof(VampireSurvivors.VampireSurvivors), "Vampire Survivors UltraWide Fixes", "0.0.3", "p1xel8ted")]
 [assembly: MelonGame("poncle", "VampireSurvivors")]
 
 namespace VampireSurvivors
@@ -90,6 +90,10 @@ namespace VampireSurvivors
                         GameObject.Find("UI/Canvas - App/Safe Area/View - StageSelection/StartButton");
                     GameObject[] stageButtons = {stageSelectButton, stageConfirmButton, stageStartButton};
                     SetParentAndPositionForButtons(selectPanel, stageButtons, new Vector3(693.5758f, 81.4038f, 0));
+
+
+                    var musicPanel = GameObject.Find("UI/Canvas - App/Safe Area/View - StageSelection/Music Selection");
+                    SetParentAndPosition(selectPanel, musicPanel, new Vector3(693.5759f, -224.8889f, 0));
                 }
             }
         }
