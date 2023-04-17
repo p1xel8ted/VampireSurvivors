@@ -24,7 +24,7 @@ An ultra-wide fix for Vampire Survivors that removes pillar-boxing. Uses Melon L
 
 ## Known Issues
 
-- **The 'challenge' levels have issues where the ground tileset stops rendering outside of 16:9. Those levels have been implemented differently compared tot he others. No fix at this stage.**
+- **The 'challenge' levels have issues where the ground tileset stops rendering outside of 16:9. Those levels have been implemented differently compared to the others. No fix at this stage.**
 - Enemies pop in where the black bars would normally be.
 - Not a mod issue, but game appears zoomed in compared to the original engine.
 
