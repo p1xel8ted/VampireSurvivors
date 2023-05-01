@@ -1,7 +1,4 @@
 ﻿using Il2CppInterop.Runtime.InteropTypes.Arrays;
-using Il2CppSystem.Xml.Schema;
-using Il2CppVampireSurvivors.App.Graphics;
-using Il2CppVampireSurvivors.App.Tools;
 using Il2CppVampireSurvivors.Data;
 using Il2CppVampireSurvivors.UI;
 using MelonLoader;
